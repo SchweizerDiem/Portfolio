@@ -256,3 +256,21 @@ section {
 .btn-container {
         gap: 1rem;
 }
+
+/* ABOUT ME */
+#section_about > .title {
+        margin: 0 auto;
+        width: 20rem;
+        border: 0.3rem solid black;
+        border-radius: 8rem;
+}
+
+#section_about > .about_p {
+        margin:0 auto;
+        width: 90vh;
+        padding: 3rem;
+}
+
+.about_p > p {
+        margin-bottom: 1rem;
+}
