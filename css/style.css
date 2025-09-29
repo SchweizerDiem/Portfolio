@@ -275,7 +275,6 @@ section {
 
 #section_about > .about_p {
         margin:0 auto;
-        width: 90vh;
         height: auto;
         padding: 3rem;
 }
@@ -284,38 +283,25 @@ section {
         margin-bottom: 1rem;
 }
 
-#section_experience {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        width: 90vh;
-        margin: 0 auto;
+/* EXPERIENCE */
+
+.section_text_p {
+        text-align: center;
 }
 
-#section_experience > .section_text_p {
-        display: flex;
-        justify-content: center;
-}
-
-.project_text {
-        display: flex;
-        justify-content: space-between;
-}
-
-.project_text > p {
-        padding: 2rem;
+.project {
+        padding: 4vh;
 }
 
 .project_text > h2 {
-        padding: 2rem;
-
+        margin-top: 2vh;
+        margin-bottom: 2vh;
 }
 
-hr {
-        margin: 1.5rem 0;
-        color: rgb(211,211,211);
+.project_text > p {
+        margin: 0vh 8vh 4vh;
 }
 
 .project > p {
-        margin-top: 1rem;
+        margin-top: 3vh;
 }
